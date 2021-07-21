@@ -1,0 +1,31 @@
+header  {
+    background-color:grey;
+    position: relative;   
+    width: 100vw;
+    height: 75px;
+}
+
+#blue-square {
+    position:absolute;
+    background-color: blue; 
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    top: 50%;
+}
+
+#yellow-box {
+background-color: yellow;
+    position: relative;    
+    left: 10vw;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+
+}
+
+p {
+    color: yellow;
+    text-align: center;
+    margin-left: 50%;
+}
