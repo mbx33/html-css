@@ -1,0 +1,95 @@
+html {
+    min-height: 100%;
+}
+
+#topBox {
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    height: 30vh;
+    width: 70vw;
+    border: 100%;
+    padding: 0%;
+    margin: 0px;
+    border: 3px solid black;
+}
+    
+#tower {
+    background-color: blueviolet;
+    position: relative;
+    top: 110px;
+    left: 210px;
+    height: 20vh;
+    width: 5vw;
+    
+}
+
+#greenBox {
+    background-color: rgb(17, 165, 42);
+    position: relative;
+    top: -90px;
+    left: 310px;
+    height: 25vh;
+    width: 30vw;
+
+}
+#circle {
+    background-color: lightblue;
+        height: 200px;
+        width: 200px;  
+        border: 1px solid black;      
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: -290px;
+        left: 750px;      
+}
+
+#boxes {
+        background-color: white;
+        position: absolute;
+        top: 350px;
+        left: 200px;
+        height: 30vh;
+        width: 70vw;
+        border: 100%;
+        padding: 0%;
+        margin: 0px;
+        border: 4px dotted black;
+    }
+
+#colBox {
+    background-color: rgb(240, 240, 203);
+    position:relative;
+    top: 30px;
+    left: 40px;
+    height: 22vh;
+    width: 63vw;
+    box-shadow: 6px 6px 6px rgb(39, 35, 35);
+        
+}
+
+#finalBox {
+    background-color: rgb(248, 242, 242);
+    position:relative;
+    top: 80px;
+    bottom: 40%;
+    left: 500px;    
+    height: 275px;
+    width: 275px;
+    box-shadow: 6px 6px 6px rgb(39, 35, 35);
+
+}
+
+h1 {
+    color: blue;
+    position: relative;
+    left: 0%;
+    bottom: -40%;
+    text-align: center;
+    
+    font-family: Courier;
+
+
+}

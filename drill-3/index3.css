@@ -1,31 +1,83 @@
-header  {
-    background-color:grey;
-    position: relative;   
-    width: 100vw;
-    height: 75px;
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
 }
 
-#blue-square {
-    position:absolute;
-    background-color: blue; 
-    width: 50px;
-    height: 50px;
-    margin-left: 20px;
-    top: 50%;
+header {
+    background-color: rgb(218, 211, 211);
+    position: relative;
+    padding: 3%;
+    border: 0 solid black;
+    margin: 0% 25% 3% 25%;
 }
 
-#yellow-box {
-background-color: yellow;
-    position: relative;    
-    left: 10vw;
-    bottom: 0%;
-    height: 100%;
-    width: 100%;
-
+.small-box{
+    background-color: rgb(139, 139, 238);
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    height: 61px;
+    width: 76px;
+    
 }
+
+
 
 p {
-    color: yellow;
-    text-align: center;
-    margin-left: 50%;
+    position: relative;
+    text-align: left;
+    left: 100px;
+    top: 120px;
+    width: 500px;
+    
 }
+
+.parent {
+position: relative;
+}
+
+.box-blue {
+    position: absolute;
+    background-color: rgb(66, 47, 235);
+    padding: 50%;
+    border: 0 solid black;
+    left: -25px;
+    width: 610px;
+    margin: 180% 25% 3% 25%;
+}
+ 
+ .box-green {
+    position: absolute;
+    background-color: rgb(16, 163, 48);
+    padding: 50%;
+    border: 0 solid black;
+    left: -25px;
+    width: 610px;
+    height: 10px;
+    margin: 280% 25% 3% 25%;
+} 
+
+.box-lime {
+    position: absolute;
+    background-color: rgb(213, 238, 123);
+    padding: 5%;
+    border: 0 solid black;
+    left: -172px;
+    width: 618px;
+    height: 40px;
+    margin: 7% 25% 3% 25%;
+}
+
+.box-yellow {
+    position: absolute;
+    background-color: rgb(227, 230, 69);
+    padding: 5%;
+    border: 0 solid black;
+    margin: 7% 25% 3% 25%;
+    align-self:  middle;
+    margin-top: 74px;
+    margin-left: -34px;
+    height: 30px;
+    width: 618px;
+} 
